@@ -1,0 +1,68 @@
+.card {
+  height: 400px;
+  width: 280px;
+  background-color: whitesmoke;
+  padding: 25px 30px 20px;
+  border-radius: 10px;
+  box-shadow: 50px 50px 35px 0 rgba(0, 0, 0, 0.2);
+ 
+}
+
+.card > p {
+  font-size: 1.4rem;
+  font-weight: 400;
+}
+
+.card > button {
+  width: 100%;
+  font-size: 1.3rem;
+  padding: 10px;
+  color: white;
+  border: none;
+  outline: none;
+  border-radius: 5px;
+  cursor: pointer;
+  background: linear-gradient(to left, #f28ab2, #d9ade3 100%);
+  position: relative;
+  bottom: -10px;
+}
+
+.card > ul {
+  height: 73%;
+  overflow: scroll;
+  margin-top: 15px;
+}
+.card > ul::-webkit-scrollbar {
+  display: none;
+}
+
+.cardList {
+  display: flex;
+  margin-bottom: 15px;
+}
+
+.imageDiv{
+  min-height: 50px;
+  min-width: 50px;
+  border-radius: 50%;
+  text-align: center;
+}
+
+.imageDiv>img{
+  height: 49px;
+  width: 49px;
+  border-radius: 50%;
+}
+
+.text{
+  margin-left: 10px;
+}
+
+.text p:nth-child(1){
+  font-size: 1.2rem;
+}
+
+.text p:nth-child(2){
+  color: rgb(94, 93, 93);
+}
+
